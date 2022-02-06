@@ -41,6 +41,10 @@ $ git clone --recursive https://github.com/nvlabs/instant-ngp
 $ cd instant-ngp
 $ pip install cmake
 ```
+if your python is not 3.9 (check with command `python --version`) then you need to run the following command to get it to ver 3.9.*
+```
+conda install python=3.9
+```
 
 Then, open **Developer Command Prompt**, you can find this in your search bar.
 
