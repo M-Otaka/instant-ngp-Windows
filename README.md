@@ -39,7 +39,6 @@ Begin by cloning this repository and all its submodules using the following comm
 ```sh
 $ git clone --recursive https://github.com/nvlabs/instant-ngp
 $ cd instant-ngp
-$ pip install cmake
 ```
 if your python is not 3.9 (check with command `python --version`) then you need to run the following command to get it to ver 3.9.*
 ```
