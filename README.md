@@ -38,6 +38,7 @@ Begin by cloning this repository and all its submodules using the following comm
 ```sh
 $ git clone --recursive https://github.com/nvlabs/instant-ngp
 $ cd instant-ngp
+$ pip install cmake
 ```
 
 Then, open **Developer Command Prompt**, you can find this in your search bar.
