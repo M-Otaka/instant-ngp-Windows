@@ -24,6 +24,7 @@ For business inquiries, please visit our website and submit the form: [NVIDIA Re
 ![image](https://user-images.githubusercontent.com/29135514/151634222-6ac236c9-5fa7-4762-9144-73e50959cb65.png)
 - __[CUDA](https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exe_network) v11.6__. You can check ur CUDA version via `nvcc --version` in any prompt and if it's not CUDA11.6, refer to [this](https://github.com/bycloudai/SwapCudaVersionWindows) to swap/install the correct version. 
 - On some machines, `pyexr` refuses to install via `pip`. This can be resolved by installing OpenEXR from [here](https://www.lfd.uci.edu/~gohlke/pythonlibs/#openexr). See later.
+- This installation tutorial will be using Anaconda. Download anaconda prompt [here](https://www.anaconda.com/products/individual).
 - __[OptiX](https://developer.nvidia.com/optix) 7.3 or higher__ for faster mesh SDF training. You need to either login or join to obtain the installer. Set the system environment variables `OptiX_INSTALL_DIR` to the installation directory if it is not discovered automatically. Should look like this: ![image](https://user-images.githubusercontent.com/29135514/151631220-7a934f5c-c299-41ab-a44e-184e2dc142b9.png)
 
 ## Compilation
