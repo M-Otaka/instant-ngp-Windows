@@ -21,7 +21,7 @@ For business inquiries, please visit our website and submit the form: [NVIDIA Re
 ## Requirements
 - An __NVIDIA GPU__; tensor cores increase performance when available. All shown results come from an RTX 3090.
 - Python ver: 3.9.*
-- [Visual Studio Community 2019](https://docs.microsoft.com/en-us/visualstudio/releases/2019/release-notes) (Latest the best, ~8GB) Below are the install requirements
+- [Visual Studio Community 2019](https://docs.microsoft.com/en-us/visualstudio/releases/2019/history) (Latest the best, ~8GB) Below are the install requirements
 ![image](https://user-images.githubusercontent.com/29135514/151634222-6ac236c9-5fa7-4762-9144-73e50959cb65.png)
 - __[CUDA](https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exe_network) v11.6__. You can check ur CUDA version via `nvcc --version` in any prompt and if it's not CUDA11.6, refer to [this](https://github.com/bycloudai/SwapCudaVersionWindows) to swap/install the correct version. 
 - On some machines, `pyexr` refuses to install via `pip`. This can be resolved by installing OpenEXR from [here](https://www.lfd.uci.edu/~gohlke/pythonlibs/#openexr). See later.
