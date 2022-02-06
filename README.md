@@ -34,7 +34,7 @@ to here `C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\M
 
 `cd` into a directory that you want to download the codes at. Eg. `cd F:\Tutorial\ngp\` 
 
-Begin by cloning this repository and all its submodules using the following command:
+Begin by cloning this repository and all its submodules using the following command (if you don't have git, download [here](https://git-scm.com/download/win) and add to path):
 ```sh
 $ git clone --recursive https://github.com/nvlabs/instant-ngp
 $ cd instant-ngp
