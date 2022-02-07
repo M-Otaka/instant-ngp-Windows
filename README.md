@@ -90,7 +90,7 @@ python scripts/colmap2nerf.py --colmap_matcher exhaustive --run_colmap --aabb_sc
 ```
 `transform.json` will be generated at the root folder, drag and drop it into your `data/<image_set_name>` folder.
 
-You have to reorganize the folder structure due to how `transform.json` is created...
+You have to reorganize the folder structure due to how `transforms.json` is created...
 
 For example:
 
@@ -111,8 +111,8 @@ File Structure **AFTER** generating transform.json
 📂instant-ngp/ # this is root
 ├── 📂data/
 │	├── 📂toy_truck/
-│	├── 📜transform.json/
 │	│	├── 📂data/
+│	│	├── 📜transforms.json/
 │	│	│	├── 📂toy_truck/
 │	│	│	│	├── 📜toy_truck_001.jpg
 │	│	│	│	├── 📜toy_truck_002.jpg
