@@ -111,8 +111,8 @@ File Structure **AFTER** generating transform.json
 📂instant-ngp/ # this is root
 ├── 📂data/
 │	├── 📂toy_truck/
-│	│	├── 📂data/
 │	│	├── 📜transforms.json/
+│	│	├── 📂data/
 │	│	│	├── 📂toy_truck/
 │	│	│	│	├── 📜toy_truck_001.jpg
 │	│	│	│	├── 📜toy_truck_002.jpg
