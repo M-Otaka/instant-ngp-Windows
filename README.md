@@ -134,7 +134,29 @@ eg.
 C:\user\user\download\instant-ngp\build\testbed.exe --scene data/toy_truck
 ```
 
-And it should launch the GUI and everything amazing with it, and my fork edits end here.
+And it should launch the GUI and everything amazing with it
+
+## Rendering custom video path
+1. Train any image set like above. 
+2. After you have reached a point that you are satisfied with your training, save a Snapshot on the GUI. (one of the tabs & no need to edit the path & the name)
+3. Find another GUI called camera path, it'll play hide and seek with you but it is there so find that window.
+4. The GUI is so well made, if you know how to use any 3D engine, it's really similar. Add camera path will give you a new angle of the camera. 
+5. After you have finished adding your camera points, save the camera path. (no need to edit the path & the name)
+6. Render the path with the following command:
+
+```sh
+python scripts/render.py --scene <scene_path> --n_seconds <seconds> --fps <fps> --render_name <name> --width <resolution_width> --height <resolution_height>
+
+```
+
+eg.
+```sh
+python scripts/render.py --scene data/toy --n_seconds 5 --fps 60 --render_name test --width 1920 --height 1080
+```
+
+Your video will be saved at root. You might have to play around with the `fps` and `n_seconds` to speed up or slow down. I couldn't get it accurately because of the lack of information and this is the best I could come up with. To be honest, this is only a short-term solution too, since the author has promised to publish an official one. So stay tuned!
+
+And my fork edits end here.
 
 
 ## Interactive training and rendering
