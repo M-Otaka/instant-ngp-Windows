@@ -136,7 +136,7 @@ C:\user\user\download\instant-ngp\build\testbed.exe --scene data/toy_truck
 
 And it should launch the GUI and everything amazing with it
 
-## Rendering custom video path
+## Rendering custom camera path
 1. Train any image set like above. 
 2. After you have reached a point that you are satisfied with your training, save a Snapshot on the GUI. (one of the tabs & no need to edit the path & the name)
 3. Find another GUI called camera path, it'll play hide and seek with you but it is there so find that window.
