@@ -137,12 +137,13 @@ C:\user\user\download\instant-ngp\build\testbed.exe --scene data/toy_truck
 And it should launch the GUI and everything amazing with it
 
 ## Rendering custom camera path
-1. Train any image set like above. 
-2. After you have reached a point that you are satisfied with your training, save a Snapshot on the GUI. (one of the tabs & no need to edit the path & the name)
-3. Find another GUI called camera path, it'll play hide and seek with you but it is there so find that window.
-4. The GUI is so well made, if you know how to use any 3D engine, it's really similar. Add camera path will give you a new angle of the camera. 
-5. After you have finished adding your camera points, save the camera path. (no need to edit the path & the name)
-6. Render the path with the following command:
+1. May need to install more dependencies. Install `pip install tqdm scipy pillow opencv-python`, `conda install -c conda-forge ffmpeg`, might be needed in the virtual environment. Refer to installation of `pyexr` above in the installation section if you didn't install that too.
+2. Train any image set like above. 
+3. After you have reached a point that you are satisfied with your training, save a Snapshot on the GUI. (one of the tabs & no need to edit the path & the name)
+4. Find another GUI called camera path, it'll play hide and seek with you but it is there so find that window.
+5. The GUI is so well made, if you know how to use any 3D engine, it's really similar. Add camera path will give you a new angle of the camera. 
+6. After you have finished adding your camera points, save the camera path. (no need to edit the path & the name)
+7. Render the path with the following command:
 
 ```sh
 python scripts/render.py --scene <scene_path> --n_seconds <seconds> --fps <fps> --render_name <name> --width <resolution_width> --height <resolution_height>
